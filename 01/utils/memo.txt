@@ -1,0 +1,13 @@
+# import utils.function as function
+
+# if __name__ == "__main__":
+#     n = function.add(1, 2)
+#     print(n)
+# ---------------------------------------------------
+# from utils.function import add
+
+# if __name__ == "__main__":
+#     n = add(1, 2)
+#     print(n)
+# ---------------------------------------------------
+# 2025年10月22日追記
