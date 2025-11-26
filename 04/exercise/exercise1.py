@@ -1,7 +1,7 @@
 from pathlib import Path
 
 if __name__ == "__main__":
-    data_dir = "04/exercise/data"
+    data_dir = "04/exercise/data" #dir右クリックで相対パスを取得からとれる
     data_dir = Path(data_dir).resolve()
     print("===== problem1 =====")
     print("===== absolute path =====")
@@ -16,3 +16,4 @@ if __name__ == "__main__":
     print("===== problem3 =====")
     file2_list = list(data_dir.glob("**/*.png"))
     print(len(file2_list))
+    
