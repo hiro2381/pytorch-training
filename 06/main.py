@@ -15,6 +15,7 @@ def run_epoch(model, dataloader, criterion, optimizer=None, is_train=True):
     correct = 0
     total = 0
 
+
     with torch.set_grad_enabled(is_train):
         for data, labels in dataloader:
             data, labels = data.to(device), labels.to(device)
