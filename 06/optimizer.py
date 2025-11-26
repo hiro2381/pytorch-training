@@ -53,3 +53,4 @@ if __name__ == "__main__":
             print(f'Epoch: {epoch+1:>3}, Loss: {loss.item():.4f}')
 
     check_parameters(model=model)
+    

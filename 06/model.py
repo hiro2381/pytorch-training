@@ -21,6 +21,7 @@ class CNN(nn.Module):
         x = self.l3(x)
         return x
 
+
 if __name__=='__main__':
     model = CNN()
     summary(model, input_size=(64,3,32,32), col_names=["output_size", "num_params"], verbose=2)

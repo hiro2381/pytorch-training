@@ -22,3 +22,4 @@ if __name__=='__main__':
     image, label = train_data[0]
     print(f"image size: {image.size()}")
     print(f'label: {label}')
+    
